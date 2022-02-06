@@ -1,0 +1,5 @@
+1.查看一下Win10激活具体过期时间：	“Windows+R”“slmgr.vbs -xpr”
+2.管理员模式启动win10命令提示符，依次输入：
+	slmgr /ipk VK7JG-NPHTM-C97JM-9MPGT-3V66T
+	slmgr /skms kms.xspace.in
+	slmgr /ato
