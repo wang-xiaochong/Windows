@@ -1,0 +1,5 @@
+
+按照端口号查找进程；最后一个为PID
+Netstat –ano|findstr “<端口号>”
+杀掉进程
+taskkill /pid 4136 -t -f
