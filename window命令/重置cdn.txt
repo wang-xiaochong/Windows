@@ -1,0 +1,5 @@
+
+
+	管理员模式cmd命令行运行
+		“ipconfig /flushdns”刷新DNS
+		"netsh winsock reset" 重置后重启电脑生效
