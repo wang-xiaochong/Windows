@@ -1,0 +1,12 @@
+
+
+左下设置=>应用=>可选功能=>更多windows功能=>
+
+勾选 Internet Information Service
+	ftp不需要。 勾选web管理工具、万维网服务里面需要的服务
+
+勾选Internet Information Service核心
+
+win+R 输入‘inetmgr’ 回车
+
+进行配置网站
