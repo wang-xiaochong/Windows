@@ -1,0 +1,6 @@
+git config -l	查看生效的配置信息
+
+git config  --global user.name 你的目标用户名；
+
+git config  --global user.email 你的目标邮箱名;
+
