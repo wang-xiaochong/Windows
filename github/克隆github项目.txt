@@ -1,0 +1,8 @@
+1、初始化
+git init
+
+2、git添加项目文件到本地Git缓冲区
+git remote add origin https://github.com/
+
+3、克隆github项目
+git clone https://.....//... .git
