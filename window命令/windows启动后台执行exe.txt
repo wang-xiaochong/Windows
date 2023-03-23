@@ -1,0 +1,22 @@
+使用windows自带的命令sc
+首先我们要打开cmd，下面的命令在cmd中运行，最好使用管理员运行cmd
+
+注册服务：
+sc create ceshi binpath= D:\ceshi\ceshi.exe type= own start= auto displayname= ceshi
+binpath：你的应用程序所在的路径。
+
+displayname：服务显示的名称
+
+如何判断服务是否注册成功：
+在cmd中输入services.msc打开系统服务，查看是否出现ceshi名称的服务（即displayname=后面的参数，我这里是ceshi）
+
+or
+
+按下面的方式尝试启动服务
+
+启动服务
+net start ceshi
+停止服务
+net stop ceshi
+删除服务
+sc delete "ceshi"
