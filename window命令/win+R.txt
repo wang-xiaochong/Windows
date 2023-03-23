@@ -1,2 +1,3 @@
 静态服务：inetmgr
 计算机管理：compmgmt.msc
+查看服务：services.msc
